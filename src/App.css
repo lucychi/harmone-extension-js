@@ -1,16 +1,49 @@
-.App {
-    color: white;
-    text-align: center;
+.welcome_page {
+   background-color:gray;
 }
 
-.welcome_text {
-    font-size: 56;
-    font-weight: ;
+.get-started-button {
+    font-size: 20;
+    font-weight: "bold";
+    color: (0xFF83a4d4);
+    border-radius: 20px;
 }
 
 .container {
-    width: 15rem;
-    height: 15rem;
-    background-color: green;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom right, #83a4d4, #b6fbff);
 }
+
+.center-content {
+    text-align: center;
+}
+
+button {
+    background-color: white;
+    color: #83a4d4;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+    outline: none;
+}
+
+button .arrow {
+    margin-left: 10px;
+}
+
+h1 {
+    font-size: 56px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+    margin-bottom: 32px;
+}
+
+
