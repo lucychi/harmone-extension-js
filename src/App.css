@@ -3,6 +3,11 @@
     text-align: center;
 }
 
+.welcome_text {
+    font-size: 56;
+    font-weight: ;
+}
+
 .container {
     width: 15rem;
     height: 15rem;

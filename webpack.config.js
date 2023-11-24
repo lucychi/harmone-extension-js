@@ -52,7 +52,7 @@ function getHtmlPlugins(chunks) {
     return chunks.map(
         (chunk) =>
             new HTMLPlugin({
-                title: "React extension",
+                title: "Harmone AI 2",
                 filename: `${chunk}.html`,
                 chunks: [chunk],
             })
